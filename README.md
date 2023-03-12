@@ -1,7 +1,7 @@
 # Algorithm
 Record self learning process
 
-## bubblesort
+## bubblesort -> stable
 There are doubel loops in this algo. The outside loop is used to keep the rounds that we need to "bubble" the biggest number to the rightmost. The inner loop is to do the swap if array[i] > array[i+1].
 A little trick: if in any round, the boolean variable which is used to keep track of whether the swap happens in the inner loop, is not set to true, it means that the array is already sorted.
 
@@ -38,7 +38,7 @@ always O(n^2) under best,worst and average cases
 O(1)
 
 
-## insertion sort
+## insertion sort -> stable
 直接插入排序(Straight Insertion Sort)的基本思想是：把n个待排序的元素看成为一个有序表和一个无序表。开始时有序表中只包含1个元素，无序表中包含有n-1个元素，排序过程中每次从无序表中取出第一个元素，将它插入到有序表中的适当位置，使之成为新的有序表，重复n-1次可完成排序过程。
 divide the whole array into sorted array and unsorted array.
 in every round, pick the first element from the usorted array and insert it into the sorted array
@@ -50,6 +50,18 @@ worst and average: O(n^2)
 ** Note：尽管插入排序的时间复杂度也是O(n²)，但一般情况下，插入排序会比冒泡排序快一倍，要比选择排序还要快一点。**
 *** which is better between selection\bubble\insertion sort? ***
 *** all these three sort algos are based on "comparison" and "swap" after comparison. ***
+
+## merge sort
+pros and cons
+### pros
+1. large size list
+2. linked list
+3. external sort
+4. stable
+### cons
+1. extra space (not inpalce sort)
+2. small size is slower because of recursion, for small problem use insertion sort(n <=15)
+3. recursive -> use stack, logn stack space
 
 ## xor
 xor is really tricky and mindful in some leetcode questions,like missing number and single number.
