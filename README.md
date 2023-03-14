@@ -63,6 +63,10 @@ pros and cons
 2. small size is slower because of recursion, for small problem use insertion sort(n <=15)
 3. recursive -> use stack, logn stack space
 
+## quick sort
+我看到网上解法有要求left或者right先走，我觉得这么做太麻烦了，没有必要
+我这里的解法没有这个要求和强调。我觉得这样更简单，更容易理解。
+
 ## xor
 xor is really tricky and mindful in some leetcode questions,like missing number and single number.
 One of the application:

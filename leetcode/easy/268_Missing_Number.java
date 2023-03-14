@@ -2,6 +2,8 @@
   brute force: space compelxity is not good. O(n) tc: O(n)
  */
 
+import java.util.HashSet;
+
 class Solution {
     public int missingNumber(int[] nums) {
     int n = nums.length;
