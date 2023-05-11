@@ -66,6 +66,14 @@ pros and cons
 ## quick sort
 我看到网上解法有要求left或者right先走，我觉得这么做太麻烦了，没有必要
 我这里的解法没有这个要求和强调。我觉得这样更简单，更容易理解。
+### time complexity
+average is O(nlogn), worst case is O(n^2)
+### key points
+1. pivot
+2. partition
+3. recursion
+4. in-place sort
+5. not stable
 
 ## xor
 xor is really tricky and mindful in some leetcode questions,like missing number and single number.
