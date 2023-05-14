@@ -1,5 +1,4 @@
 # Algorithm
-Record self learning process
 
 ## bubblesort -> stable
 There are doubel loops in this algo. The outside loop is used to keep the rounds that we need to "bubble" the biggest number to the rightmost. The inner loop is to do the swap if array[i] > array[i+1].
@@ -122,6 +121,12 @@ class Solution {
 
 
 
+# leetcode
+
+## 70.climbing stairs
+
+this is question is the classic and easy level question. Variable a and b are used to store f(n-1) and f(n-2) respectively.
+The time complexity is O(n) = n; and space complexity is O(1). We dont need to create a array or other data stucture to store the temparary vlaues.
 
 
 
