@@ -1,5 +1,9 @@
 # Algorithm
 
+## company folder
+I put some companies' online assesments questions unfer this folder.
+In the Main.java file, you could see the comments indicating the companies.
+
 ## bubblesort -> stable
 There are doubel loops in this algo. The outside loop is used to keep the rounds that we need to "bubble" the biggest number to the rightmost. The inner loop is to do the swap if array[i] > array[i+1].
 A little trick: if in any round, the boolean variable which is used to keep track of whether the swap happens in the inner loop, is not set to true, it means that the array is already sorted.
