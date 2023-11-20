@@ -23,7 +23,7 @@ public class Q4 {
 
     public static void main(String[] args) {
         Q4 q4 = new Q4();
-        int[] arr1 = {2,1,3};
+        int[] arr1 = {1,3,0,4};
         for(int i = 0; i < arr1.length; i++) {
             System.out.print( q4.mostContinuous(arr1, i)+ " ");
         }
